@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RaceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-12T16:45:42" hostname="ChaeGyunui-MacBookPro.local" time="0.022">
+<testsuite name="RaceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-12T17:32:50" hostname="ChaeGyunui-MacBookPro.local" time="0.03">
   <properties/>
-  <testcase name="몬스터_초기화_테스트" classname="RaceTest" time="0.015"/>
-  <testcase name="이동테스트_비행" classname="RaceTest" time="0.001"/>
-  <testcase name="이동테스트_달리기" classname="RaceTest" time="0.001"/>
-  <testcase name="이동테스트_에스퍼" classname="RaceTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="몬스터_초기화_테스트" classname="RaceTest" time="0.012"/>
+  <testcase name="이동테스트_에스퍼_성공" classname="RaceTest" time="0.002"/>
+  <testcase name="이동테스트_에스퍼_실패" classname="RaceTest" time="0.0"/>
+  <testcase name="이동테스트_달리기_성공" classname="RaceTest" time="0.001"/>
+  <testcase name="이동테스트_달리기_실패" classname="RaceTest" time="0.0"/>
+  <testcase name="이동테스트_비행_성공" classname="RaceTest" time="0.001"/>
+  <testcase name="이동테스트_비행_실패" classname="RaceTest" time="0.0"/>
+  <testcase name="우승자_선출" classname="RaceTest" time="0.012"/>
+  <testcase name="여러번_이동" classname="RaceTest" time="0.0"/>
+  <system-out><![CDATA[originals
+Monster{userName='크롱달리기', moveStrategy=RunStrategy@65bfc26, distance=7}
+Monster{userName='크롱비행', moveStrategy=FlightStrategy@1ad3826c, distance=12}
+Monster{userName='크롱에스퍼', moveStrategy=EsperStrategy@272aa78d, distance=283}
+winners
+Monster{userName='크롱에스퍼', moveStrategy=EsperStrategy@272aa78d, distance=283}
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

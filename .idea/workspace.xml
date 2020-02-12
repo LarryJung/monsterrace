@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dab141c7-3015-456e-9512-e641a8167e2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EsperStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlightStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoveStrategyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/RaceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/RaceTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-RaceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-RaceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EsperStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EsperStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FlightStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoveStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RunStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StubNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StubNumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RaceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,6 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RaceTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="race.main" />
@@ -139,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581432423392</updated>
-      <workItem from="1581432424942" duration="6038000" />
+      <workItem from="1581432424942" duration="9454000" />
     </task>
     <servers />
   </component>

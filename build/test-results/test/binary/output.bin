@@ -1,0 +1,7 @@
+	
+originals
+	RMonster{userName='크롱달리기', moveStrategy=RunStrategy@65bfc26, distance=7}
+	TMonster{userName='크롱비행', moveStrategy=FlightStrategy@1ad3826c, distance=12}
+	WMonster{userName='크롱에스퍼', moveStrategy=EsperStrategy@272aa78d, distance=283}
+	winners
+	WMonster{userName='크롱에스퍼', moveStrategy=EsperStrategy@272aa78d, distance=283}

@@ -22,8 +22,21 @@ public class Monster {
         return distance;
     }
 
-    public void move() {
+    public int move() {
         this.distance = distance + this.moveStrategy.getDistance();
+        return distance;
     }
 
+    public String type() {
+        return moveStrategy.getType();
+    }
+
+    @Override
+    public String toString() {
+        return "Monster{" +
+                "userName='" + userName + '\'' +
+                ", moveStrategy=" + moveStrategy +
+                ", distance=" + distance +
+                '}';
+    }
 }
